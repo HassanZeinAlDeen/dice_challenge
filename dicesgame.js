@@ -1,9 +1,6 @@
 window.onload = function () {
   var x = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
   var y = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
-  console.log(x, y)
-  //document.getElementById("n_1").innerHTML = x;
-  //document.getElementById("n_2").innerHTML = y;
   var winner = document.querySelector(".game_title");
   dtrmnWinner(x, y);
   var first_dice = document.querySelectorAll(".dot1");
