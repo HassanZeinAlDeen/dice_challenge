@@ -14,7 +14,6 @@ body {
   flex-direction: row;
   gap: 50px;
   align-items: center;
-  align-items: center;
   justify-content: center;
 }
 
@@ -23,9 +22,24 @@ body {
   background-color: rgb(136, 0, 0);
   width: 200px;
   height: 200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  flex-direction: column;
+  padding: 5px 5px;
 }
 
 .player_1>p,
 .player_2>p {
   font-size: 40px;
+}
+
+.dot1,.dot2{
+  background-color: rgb(136, 0, 0);
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
 }
