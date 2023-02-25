@@ -1,13 +1,15 @@
-body{
+body {
   background-color: rgb(100, 100, 224);
   color: white;
   text-align: center;
 }
-.game_title{
+
+.game_title {
   font-size: 50px;
   font-weight: bold;
 }
-.container{
+
+.container {
   display: flex;
   flex-direction: row;
   gap: 50px;
@@ -15,11 +17,15 @@ body{
   align-items: center;
   justify-content: center;
 }
-.dice_1,.dice_2{
+
+.dice_1,
+.dice_2 {
   background-color: rgb(136, 0, 0);
   width: 200px;
   height: 200px;
 }
-.player_1 > p ,.player_2 > p {
+
+.player_1>p,
+.player_2>p {
   font-size: 40px;
 }
